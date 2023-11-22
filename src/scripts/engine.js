@@ -14,7 +14,7 @@ const state = {
     gameVelocity: 1000,
     hitPosition: 0,
     result: 0,
-    currentTime: 15,
+    currentTime: 60,
     lives: 5,
   },
   actions: {
@@ -33,7 +33,7 @@ function countDown() {
 }
 
 function resetGame() {
-  state.values.currentTime = 5;
+  state.values.currentTime = 60;
   state.values.lives = 5;
   state.values.result = 0;
   state.view.score.textContent = 0;
