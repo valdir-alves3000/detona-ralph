@@ -71,3 +71,26 @@
     height: 40px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .menu h2 {
+    font-size: 1rem;
+  }
+  .menu h2,
+  .panel {
+    margin-top: 0.5rem;
+  }
+
+  .menu-lives {
+    width: 160px;
+  }
+
+  .menu-lives img {
+    height: 30px;
+  }
+
+  .square {
+    height: 120px;
+    width: 120px;
+  }
+}
